@@ -12,5 +12,7 @@ go mod init example.com/greetings
 ```
 
 ```
-go get github.com/chieund/go_module
+go get -u github.com/chieund/go_module
 ```
+
+go mod tidy
