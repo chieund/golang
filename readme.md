@@ -15,4 +15,11 @@ go mod init example.com/greetings
 go get -u github.com/chieund/go_module
 ```
 
+```
 go mod tidy
+```
+
+golang output assembly
+```
+ go tool compile -S file.go > file.s
+```
