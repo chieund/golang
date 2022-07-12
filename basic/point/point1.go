@@ -13,6 +13,8 @@ func main() {
 	/* address stored in pointer variable */
 	fmt.Printf("Address stored in ip variable: %x\n", ip)
 
+	fmt.Printf("Address stored in ip variable: %x\n", &ip)
+
 	/* access the value using the point */
 	fmt.Printf("Value of *ip variable: %d", *ip)
 }
