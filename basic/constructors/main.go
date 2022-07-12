@@ -51,5 +51,5 @@ func main() {
 	fmt.Println(*employee3)
 
 	employee4 := NewEmployee(1, "Chieu2", 30)
-	fmt.Println(employee4)
+	fmt.Println(employee4.GetId())
 }
