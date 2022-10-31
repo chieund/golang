@@ -15,6 +15,7 @@ func crawlURL(queue <-chan int, wg *sync.WaitGroup, name string) {
 		fmt.Printf("Worker %s is crawling URL %d\n", name, v)
 		//time.Sleep(time.Second)
 	}
+	fmt.Sprintf()
 
 	fmt.Printf("Worker %s done and exit\n", name)
 	wg.Done()
